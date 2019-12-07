@@ -113,6 +113,36 @@
                 }
             }
         });
+
+
+        // /**
+        // * Dropdown
+        // */
+        $('[data-init="dropdown"]').each(function(index, el) {
+
+        $(el).find('a.dropdown__toggle').on('click', function(event) {
+        		event.preventDefault();
+        		$(el).find('.dropdown__content').toggleClass('open');
+        		$(el).toggleClass('open');
+        	});
+
+        $(document).on('click', function(event) {
+        		var $content = $(el).find('.dropdown__content');
+        		if ($.contains(el, event.target)) {
+        			return;
+        		}
+
+        if ($(el).hasClass('open')) {
+        			$(el).removeClass('open');
+        		}
+
+        if ($content.hasClass('open')) {
+        			$content.removeClass('open');
+        		}
+        	});
+        });
+
+
     /*--------------------
        MAGNIFIC POPUP JS
        ----------------------*/
