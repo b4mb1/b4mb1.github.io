@@ -78,6 +78,36 @@
         }
     });
 
+    /*-- Lang switcher --*/
+    $("#unobtrusive").click(function(e) {
+      var language = {
+        pl: {
+          home: "Strona główna",
+          about: "O TipMe",
+          feature: "Funkcje Aplikacji",
+          faq: "FAQ",
+          contact: "Kontakt",
+          header: "Zostawiaj napiwki z Twojego telefonu. To prostsze niz myslisz!",
+          under_header: "Czy zdazylo Ci sie nie zostawiac napiwku, bo nie maiales przy sobie gotowki? Z aplikacja TipMe ten problem to przeszlosc. Nagradzaj za wysmienita oblsuge bez koniecznosci odwiedzenia bankomatu!"
+        },
+        eng: {
+          home: "Home"
+        }
+      };
+
+      if (window.location.hash) {
+        if(window.location.hash === "#pl") {
+        home.textContent = language.pl.home;
+        about.textContent = language.pl.about;
+        feature.textContent = language.pl.feature;
+        faq.textContent = language.pl.faq;
+        contact.textContent = language.pl.contact;
+        header.textContent = language.pl.header;
+        under_header.textContent = language.pl.under_header;
+        }
+      }
+    });
+
     /*-- Smoth-Scroll --*/
     $('.mainmenu-area a[href*="#"]')
         // Remove links that don't actually link to anything
