@@ -69,7 +69,7 @@
     MICHIMP INTEGRATION
     -----------------------------*/
     $('#mc-form').ajaxChimp({
-        url: 'https://quomodosoft.us14.list-manage.com/subscribe/post?u=b2a3f199e321346f8785d48fb&amp;id=d0323b0697', //Set Your Mailchamp URL
+        url: 'https://quomodosoft.us14.list-manage.com/subscribe/post?u=b2a3f199e321346f8785d48fb&amp;id=d0323b0697', //Set Your Mailchamp url
         callback: function (resp) {
             if (resp.result === 'success') {
                 $('.subscrie-form, .join-button').fadeOut();
@@ -90,20 +90,39 @@
           header: "Zostawiaj napiwki z Twojego telefonu. To prostsze niz myslisz!",
           under_header: "Czy zdazylo Ci sie nie zostawiac napiwku, bo nie maiales przy sobie gotowki? Z aplikacja TipMe ten problem to przeszlosc. Nagradzaj za wysmienita oblsuge bez koniecznosci odwiedzenia bankomatu!"
         },
-        eng: {
-          home: "Home"
+        en: {
+          home: "Home",
+          about: "About TipMe",
+          feature: "Features",  
+          faq: "FAQ",
+          contact: "Contact",
+          header: "Cashless tipping at your fingertips. It was never that easy!",
+          under_header: "Have you ever wanted to leave a tip but you had no cash on you? Never again! With our app simply scan QR-code provided by the service professionals and tip in no time. Save time, skip the ATM and reward for excellent service!"
         }
       };
 
+
+      console.log("In the func ;)");
+      console.log(e);
+
       if (window.location.hash) {
         if(window.location.hash === "#pl") {
-        home.textContent = language.pl.home;
-        about.textContent = language.pl.about;
-        feature.textContent = language.pl.feature;
-        faq.textContent = language.pl.faq;
-        contact.textContent = language.pl.contact;
-        header.textContent = language.pl.header;
-        under_header.textContent = language.pl.under_header;
+          home.textContent = language.pl.home;
+          about.textContent = language.pl.about;
+          feature.textContent = language.pl.feature;
+          faq.textContent = language.pl.faq;
+          contact.textContent = language.pl.contact;
+          header.textContent = language.pl.header;
+          under_header.textContent = language.pl.under_header;
+        } else if (window.location.hash === "#en") {
+          home.textContent = language.en.home;
+          about.textContent = language.en.about;
+          feature.textContent = language.en.feature;
+          faq.textContent = language.en.faq;
+          contact.textContent = language.en.contact;
+          header.textContent = language.en.header;
+          under_header.textContent = language.en.under_header;
+
         }
       }
     });
