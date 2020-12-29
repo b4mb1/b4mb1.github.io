@@ -85,25 +85,18 @@
           home: "Strona główna",
           about: "O TipMe",
           feature: "Funkcje Aplikacji",
+          lang: "PL",
           faq: "FAQ",
           contact: "Kontakt",
           header: "Zostawiaj napiwki z Twojego telefonu. To prostsze niz myslisz!",
           under_header: "Czy zdazylo Ci sie nie zostawiac napiwku, bo nie maiales przy sobie gotowki? Z aplikacja TipMe ten problem to przeszlosc. Nagradzaj za wysmienita oblsuge bez koniecznosci odwiedzenia bankomatu!"
-        },
-        en: {
-          home: "Home",
-          about: "About TipMe",
-          feature: "Features",  
-          faq: "FAQ",
-          contact: "Contact",
-          header: "Cashless tipping at your fingertips. It was never that easy!",
-          under_header: "Have you ever wanted to leave a tip but you had no cash on you? Never again! With our app simply scan QR-code provided by the service professionals and tip in no time. Save time, skip the ATM and reward for excellent service!"
         }
       };
           home.textContent = language.pl.home;
           about.textContent = language.pl.about;
           feature.textContent = language.pl.feature;
           faq.textContent = language.pl.faq;
+          lang.textContent = language.pl.lang;
           contact.textContent = language.pl.contact;
           header.textContent = language.pl.header;
           under_header.textContent = language.pl.under_header;
@@ -111,20 +104,12 @@
 
     $("#enpick").click(function(e) {
           var language = {
-        pl: {
-          home: "Strona główna",
-          about: "O TipMe",
-          feature: "Funkcje Aplikacji",
-          faq: "FAQ",
-          contact: "Kontakt",
-          header: "Zostawiaj napiwki z Twojego telefonu. To prostsze niz myslisz!",
-          under_header: "Czy zdazylo Ci sie nie zostawiac napiwku, bo nie maiales przy sobie gotowki? Z aplikacja TipMe ten problem to przeszlosc. Nagradzaj za wysmienita oblsuge bez koniecznosci odwiedzenia bankomatu!"
-        },
         en: {
           home: "Home",
           about: "About TipMe",
           feature: "Features",  
           faq: "FAQ",
+          lang: "EN",
           contact: "Contact",
           header: "Cashless tipping at your fingertips. It was never that easy!",
           under_header: "Have you ever wanted to leave a tip but you had no cash on you? Never again! With our app simply scan QR-code provided by the service professionals and tip in no time. Save time, skip the ATM and reward for excellent service!"
@@ -134,6 +119,7 @@
           about.textContent = language.en.about;
           feature.textContent = language.en.feature;
           faq.textContent = language.en.faq;
+          lang.textContent = language.en.lang;
           contact.textContent = language.en.contact;
           header.textContent = language.en.header;
           under_header.textContent = language.en.under_header;

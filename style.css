@@ -426,13 +426,12 @@ input:-webkit-autofill:focus {
 .dropdown__content {
     color: #ffffff;
     top: 100%;
-    right: 0;
     position: absolute;
     box-shadow: 0 0 30px rgba(0, 0, 0, .1);
     display: block !important;
     padding: 0px;
     line-height: 1.5;
-    min-width: 46px;
+    min-width: 19px;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: translateY(15px);
