@@ -232,6 +232,11 @@ input:-webkit-autofill:focus {
     padding-bottom: 120px;
 }
 
+.section-padding-funding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .upper {
     text-transform: uppercase;
 }
@@ -459,6 +464,10 @@ input:-webkit-autofill:focus {
             transform: translateY(0);
 }
 
+.header-funding {
+    padding-top: 70px;
+}
+
 .list-style-none {
     list-style: none;
     padding: 0;
@@ -503,6 +512,13 @@ input:-webkit-autofill:focus {
     padding-top: 26vh;
     color: #ffffff;
     margin-bottom: 100px;
+}
+
+.home-area-funding {
+    width: 100%;
+    background: url('images/header-bg.jpg') no-repeat scroll center bottom / cover;
+    padding-top: 70px;
+    color: #ffffff;
 }
 
 .home-area .mobile-image {
@@ -1066,6 +1082,12 @@ input:-webkit-autofill:focus {
 .footer-bottom {
     padding: 20px 0;
     background-color: #f5f6ff;
+    border-top: 1px solid #5e88fc;
+}
+
+.footer-bottom-funding {
+    padding: 20px 0;
+    background-color: #ffffff;
     border-top: 1px solid #5e88fc;
 }
 

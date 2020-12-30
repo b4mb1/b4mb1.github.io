@@ -89,6 +89,7 @@
           faq: "FAQ",
           contact: "Kontakt",
           header: "Zostawiaj napiwki z Twojego telefonu. To prostsze niz myslisz!",
+          news_subtitle: "Firma TipMe jest beneficjentem programu Rozwój Startapow w Polsce Wschodniej. Nasz rozwiazanie informatyczne zostalo wybrane do dofinansowania i otrzyma wsparcie z Funduszy Unijnych.",
           under_header: "Czy zdazylo Ci sie nie zostawiac napiwku, bo nie maiales przy sobie gotowki? Z aplikacja TipMe ten problem to przeszlosc. Nagradzaj za wysmienita oblsuge bez koniecznosci odwiedzenia bankomatu!"
         }
       };
@@ -111,8 +112,28 @@
           faq: "FAQ",
           lang: "EN",
           contact: "Contact",
-          header: "Cashless tipping at your fingertips. It was never that easy!",
-          under_header: "Have you ever wanted to leave a tip but you had no cash on you? Never again! With our app simply scan QR-code provided by the service professionals and tip in no time. Save time, skip the ATM and reward for excellent service!"
+          about_page_title: "About TipMe",
+          about_page_subtitle: "It is more than just tips",
+          about_page_description: "Our innovative app offers much more than you think for both customers and service professionals. Apart from making tipping experience incredibly easy, it also democratize access to tips for every employee, give instant access to deployed funds and help staff to manage their income. Soon on both platforms!",
+          news_title: "What's new",
+          news_subtitle: "TipMe has secured funding",
+          news_description: "TipMe is a beneficiary of the Startup Development in Eastern Poland program. Our company has been selected for financing from EU funds.",
+          application_title: "Application",
+          application_subtitle: "Fast and seamless experience! Always.",
+          feat1_title: "Fast and secure tipping",
+          feat1_subtitle: "MM",
+          feat2_title: "Menu on your phone",
+          feat2_subtitle: "",
+          feat3_title: "Recommendations",
+          feat3_subtitle: "",
+          feat4_title: "Pay for a receipt",
+          feat4_subtitle: "",
+          feat5_title: "Helps to calculate a tip",
+          feat5_subtitle: "",
+          feat6_title: "Option to leave a comment",
+          feat6_subtitle: "",
+          header: "Cashless tipping at your fingertips.",
+          under_header: "So you want to leave a tip but you have no cash in the wallet? We solved this problem for you! Our mobile application is dead simple and allows to tip in the blink of an eye. This time you can skip the ATM!"
         }
       };
           home.textContent = language.en.home;
@@ -121,8 +142,29 @@
           faq.textContent = language.en.faq;
           lang.textContent = language.en.lang;
           contact.textContent = language.en.contact;
-          header.textContent = language.en.header;
+          about_page_title.textContent = language.en.about_page_title;
+          about_page_subtitle.textContent = language.en.about_page_subtitle;
+          about_page_description.textContent = language.en.about_page_description;
+          news_title.textContent = language.en.news_title;
+          news_subtitle.textContent = language.en.news_subtitle;
+          news_description.textContent = language.en.news_description;
+          header.textContent.textContent = language.en.header;
+          application_title.textContent = language.en.application_title;
+          application_subtitle.textContent = language.en.application_subtitle;
           under_header.textContent = language.en.under_header;
+          feat1_title.textContent = language.en.feat1_title;
+          feat1_subtitle.textContent = language.en.feat1_subtitle;
+          feat2_title.textContent = language.en.feat2_title;
+          feat2_subtitle.textContent = language.en.feat2_subtitle;
+          feat3_title.textContent = language.en.feat3_title;
+          feat3_subtitle.textContent = language.en.feat3_subtitle;
+          feat4_title.textContent = language.en.feat4_title;
+          feat4_subtitle.textContent = language.en.feat4_subtitle;
+          feat5_title.textContent = language.en.feat5_title;
+          feat5_subtitle.textContent = language.en.feat5_subtitle;
+          feat6_title.textContent = language.en.feat6_title;
+          feat6_subtitle.textContent = language.en.feat6_subtitle;
+          
      }).css('cursor', 'pointer');
 
 
