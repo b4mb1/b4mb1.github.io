@@ -88,9 +88,44 @@
           lang: "PL",
           faq: "FAQ",
           contact: "Kontakt",
-          header: "Zostawiaj napiwki z Twojego telefonu. To prostsze niz myslisz!",
-          news_subtitle: "Firma TipMe jest beneficjentem programu Rozwój Startapow w Polsce Wschodniej. Nasz rozwiazanie informatyczne zostalo wybrane do dofinansowania i otrzyma wsparcie z Funduszy Unijnych.",
-          under_header: "Czy zdazylo Ci sie nie zostawiac napiwku, bo nie maiales przy sobie gotowki? Z aplikacja TipMe ten problem to przeszlosc. Nagradzaj za wysmienita oblsuge bez koniecznosci odwiedzenia bankomatu!"
+          header: "Zostawiaj napiwki z Twojego telefonu. To prostsze niz myślisz!",
+          news_subtitle: "Firma TipMe jest beneficjentem programu Rozwój Startupów w Polsce Wschodniej. Nasze rozwiązanie informatyczne zostało wybrane do dofinansowania i otrzyma wsparcie z Funduszy Unijnych.",
+          under_header: "Czy zdarzyło Ci się nie zostawić napiwku, bo nie miałeś przy sobie gotówki? Z aplikacją TipMe ten problem to przeszłość. Nagradzaj za wyśmienitą obsługę bez konieczności odwiedzenia bankomatu!</br>Wkrótce na obu systemach!"
+          about_page_description: "Nasza innowacyjna aplikacja oferuje zarówno klientom jak i pracownikom usługowym znacznie więcej niż myślisz. Oprócz sprawienia, że dawanie napiwków jest niewiarygodnie łatwe, pozwala także na dostęp do napiwków dla każdego pracownika, daje natychmiastowy dostęp do uzyskanych funduszy i pozwala pracownikom zarządzać ich dochodami.</br></br>Wkrótce na obu systemach!"
+          news_subtitle: "Finansowanie z Funduszy Unijnych"
+          news_description: "Firma TipMe jest beneficjentem programu Rozwój Startapow w Polsce Wschodniej. Nasz rozwiazanie informatyczne zostalo wybrane do dofinansowania i otrzyma wsparcie z Funduszy Unijnych."
+          application_subtitle: "Szybkie i pezproblemowe doświadczenie! Zawsze."
+          feat1_subtitle: "Staramy się, by nasza aplikacja była prosta w obsłudze, a jednoczesnie szybka i dająca dużo możliwości. Z TipMe masz to wszystko pod ręką.
+          feat2_title: "Bezpieczne płatności"
+          feat2_subtitle: "Bezpieczeństwo jest fundamentem naszej splikacji. Działamy zgodnie z najlepszymi praktykami i współpracujemy z liderami na rycku płatności, aby być pewnymi, że najlepiej chronimy naszy klientów przed oszustwami."
+          feat3_title: "Wiele opcji płatności"
+          feat3_subtitle: "Współpracujemy z wieloma dostawcami usług płatności, aby nasz produkt był dostępny dla praktycznie każdego z rachunkiem bankowym lub kartą kredytową. Dla Twojej wygody."
+          feat4_title: "Piękny design"
+          feat4_subtitle: "Kochamy estetykę. Piękny i intuicyjny design naszej aplikacji zapewnia bezproblemową i przyjemną obsługę."
+          feat5_title: "Ochrona prywatności jest dla nas kluczowa"
+          feat5_subtitle: "Nikomu nie udostępniamy Twoich danych. Pozostają one zawsze bezpieczne na Twoim urządzeniu."
+          feat6_title: "Dostępność"
+          feat6_subtitle: "Dbamy o to, by dostarczać najlepsze usługi każdemu klientowi, także tym, którzy mają specjalne potrzeby"
+          faq2: "Najczęściej zadawane pytania"
+          how_work: "Jak to działa?"
+          how_work_ans: "Po prostu skanujesz kod QR lub wyszukujesz punkt usługowy, potem wybierasz osobę, wpisujesz kwotę i klikasz “wyślij” - to takie proste."
+          how_pay: "Czy mogę zapłacić przez Apple Pay lub Google Pay?"
+          how_pay_ans: "Tak, możesz. Obsługujemy wszystkie popularne metody płatności."
+          how_safe: "Jak bezpieczne jest dawanie napiwków tą aplikacją?"
+          how_safe_ans: "Jest w 100% bezpieczne. Nasi partnerzy spełniają najwyższe międzynarodowe standardy."
+          find_waiter: "Jak mogę odnaleźć kelnera, któremu chcę dać napiwek?"
+          find_waiter_ans: "Po wejścu na profil restauracji, przewiń listę pracowników i znajdź jego imię lub zdjęcie."
+          fees: "Czy są jakieś ukryte opłaty?"
+          fees_ans: "TipMe pobiera małą prowizję za obsługę płatności. Aktualne opłaty można znaleźć w zakładce “Tabela Opłat” w aplikacji."
+          if_anon: "Czy płatności są anonimowe?"
+          if_anon_ans: "Decyzja należy do Ciebie. Domyślnie płatności są anonimowe. Możesz to zmienić w “Ustawieniach”."
+          pay_after: "Czy mogę zapłacić później?"
+          pay_after_ans: "Tak, możesz zostawić napiwek już po opuszczeniu punktu usługowego. Możesz nawet to zrobić przed przybyciem do niego. Zawsze masz możliwość wyszukania danego lokalu po jego nazwie lub lokalizacji. Nie potrzebujesz kodu QR."
+          can_split: "Czy mogę dać napiwek razem z kimś innym?"
+          can_split_ans: "Nie mamy jeszcze takiej funkcjonalności. Jednakże, każda z osób może zostawić osobny napiwek."
+          contact_us_title: "Skontaktuj się z  NAMI"
+          contact_us_subtitle: "Możesz zawsze do nas napisać!"
+          
         }
       };
           home.textContent = language.pl.home;
