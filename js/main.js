@@ -120,17 +120,17 @@
           news_description: "TipMe is a beneficiary of the Startup Development in Eastern Poland program. Our company has been selected for financing from EU funds.",
           application_title: "Application",
           application_subtitle: "Fast and seamless experience! Always.",
-          feat1_title: "Fast and secure tipping",
-          feat1_subtitle: "MM",
-          feat2_title: "Menu on your phone",
+          feat1_title: "New tipping experience",
+          feat1_subtitle: "",
+          feat2_title: "Secure payments",
           feat2_subtitle: "",
-          feat3_title: "Recommendations",
+          feat3_title: "Multiple payment options",
           feat3_subtitle: "",
-          feat4_title: "Pay for a receipt",
+          feat4_title: "Option to leave a comment",
           feat4_subtitle: "",
-          feat5_title: "Helps to calculate a tip",
+          feat5_title: "Privacy is at our heart",
           feat5_subtitle: "",
-          feat6_title: "Option to leave a comment",
+          feat6_title: "Accessability",
           feat6_subtitle: "",
           header: "Cashless tipping at your fingertips.",
           under_header: "So you want to leave a tip but you have no cash in the wallet? We solved this problem for you! Our mobile application is dead simple and allows to tip in the blink of an eye. This time you can skip the ATM!"
@@ -166,11 +166,6 @@
           feat6_subtitle.textContent = language.en.feat6_subtitle;
           
      }).css('cursor', 'pointer');
-
-
-
-
-
 
 
     /*-- Smoth-Scroll --*/
