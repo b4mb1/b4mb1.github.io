@@ -112,6 +112,9 @@
           feat5_subtitle: "Nikomu nie udostępniamy Twoich danych. Pozostają one zawsze bezpieczne na Twoim urządzeniu.",
           feat6_title: "Dostępność",
           feat6_subtitle: "Dbamy o to, by dostarczać najlepsze usługi każdemu klientowi, także tym, którzy mają specjalne potrzeby.",
+          promo_description: "Powstał nasz pierwszy film promocyjny. Zapraszamy do ogladania, polubienia i udostepniania!",
+          promo_title: "PROMO",
+          promo_subtitle: "Zobacz sam!",
           faq2: "Najczęściej zadawane pytania",
           how_work: "Jak to działa?",
           how_work_ans: "Po prostu skanujesz kod QR lub wyszukujesz punkt usługowy, potem wybierasz osobę, wpisujesz kwotę i klikasz “wyślij” - to takie proste.",
@@ -131,7 +134,6 @@
           can_split_ans: "Nie mamy jeszcze takiej funkcjonalności. Jednakże, każda z osób może zostawić osobny napiwek.",
           contact_us_title: "Kontakt",
           contact_us_subtitle: "Napisz do nas!"
-          
         }
       };
           home.textContent = language.pl.home;
@@ -162,6 +164,9 @@
           feat5_subtitle.textContent = language.pl.feat5_subtitle;
           feat6_title.textContent = language.pl.feat6_title;
           feat6_subtitle.textContent = language.pl.feat6_subtitle;
+          promo_title.textContent = language.pl.promo_title;
+          promo_subtitle.textContent = language.pl.promo_subtitle;
+          promo_description.textContent = language.pl.promo_description;
           faq2.textContent = language.pl.faq2;
           how_work.textContent = language.pl.how_work;
           how_work_ans.textContent = language.pl.how_work_ans;
@@ -202,6 +207,9 @@
           news_description: "TipMe is a beneficiary of the Development of Start-ups in Eastern Poland program. Our IT solution has been selected by the Polish Agency for Enterprise Development under POPW 1.1.2 and will receive funding from European Union.",
           application_title: "Application",
           application_subtitle: "Fast and seamless experience! Always.",
+          promo_title: "PROMO",
+          promo_subtitle: "See for yourself!",
+          promo_description: "Our first promotional video was made. We invite you to watch, like and share!",
           feat1_title: "New tipping experience",
           feat1_subtitle: "Our application brings new possibilities. You don't need to have cash on you, wait for a waiter, and you can always tip after leaving the restaurant.",
           feat4_title: "Secure payments",
@@ -266,6 +274,9 @@
           feat5_subtitle.textContent = language.en.feat5_subtitle;
           feat6_title.textContent = language.en.feat6_title;
           feat6_subtitle.textContent = language.en.feat6_subtitle;
+          promo_title.textContent = language.en.promo_title;
+          promo_subtitle.textContent = language.en.promo_subtitle;
+          promo_description.textContent = language.en.promo_description;
           faq2.textContent = language.en.faq2;
           how_work.textContent = language.en.how_work;
           how_work_ans.textContent = language.en.how_work_ans;
