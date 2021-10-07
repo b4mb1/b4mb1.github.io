@@ -37,35 +37,53 @@
     <!-- MainMenu-Area -->
     <nav class="mainmenu-area" data-spy="affix" data-offset-top="200">
         <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary_menu">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="funding.html"><img src="images/flaga.svg" alt="Logo"></a>
-            </div>
-           <div class="header__toogleGroup">
-           <div class="header__chooseLanguage">
-                  <div class="dropdown" data-init="dropdown"><a class="dropdown__toggle" href="javascript:void(0)" id="lang">PL</a>
-                      <div class="dropdown__content" data-position="right">
-                          <ul class="list-style-none">
-                            <li><div class = "dropdown-row" lang="en" id="plpick">PL</div></li>
-                            <li><div class = "dropdown-row" lang="pl" id="enpick">EN</div></li>
-                          </ul>
-                      </div>
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary_menu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="funding.html"><img src="images/flaga.svg" alt="Logo"></a>
+                </div>
+                <div class="header__toogleGroup">
+                    <div class="header__chooseLanguage">
+                        <div class="dropdown" data-init="dropdown"><a class="dropdown__toggle" href="javascript:void(0)" id="lang">PL</a>
+                            <div class="dropdown__content" data-position="right">
+                                <ul class="list-style-none">
+                                    <li><div class = "dropdown-row" lang="en" id="plpick">PL</div></li>
+                                    <li><div class = "dropdown-row" lang="pl" id="enpick">EN</div></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-             </div>
-            </div>
-            <div class="collapse navbar-collapse" id="primary_menu">
-                <ul class="nav navbar-nav mainmenu">
-                    <li class="active"><a id="home" href="#home_page">Strona główna</a></li>
-                    <li><a href="#about_page" id="about">O Serval</a></li>
-                    <li><a href="#progress_page" id="news">Aktualności</a></li>
-                    <li><a href="#features_page" id="feature">Aplikacja</a></li>
-                    <li><a href="#questions_page" id="faq">FAQ</a></li>
-                    <li><a href="#contact_page" id="contact">Kontakt</a></li>
-                </ul>
+                  <!--
+                  <button class="bttn-white sq"> Login </button>
+                  <button class="bttn-white sq"> Sign Up </button>
+
+                      -->
+                    <a href="https://serval-app.com/login">
+                      <button type="button" class="btn btn-light" style="margin-left: 10px">
+                        Login
+                      </button>
+                    </a>
+                    <a href="https://serval-app.com/login"gin"> 
+                      <button type="button" class="btn btn-outline-primary" style="margin-left: 10px">
+                        Sign Up
+                      </button>
+                    </a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="primary_menu">
+                    <ul class="nav navbar-nav mainmenu">
+                        <li class="active"><a id="home" href="#home_page">Strona główna</a></li>
+                        <li><a href="#about_page" id="about">O Serval</a></li>
+                        <li><a href="#progress_page" id="news">Aktualności</a></li>
+                        <li><a href="#features_page" id="feature">Aplikacja</a></li>
+                        <li><a href="#questions_page" id="faq">FAQ</a></li>
+                        <li><a href="#contact_page" id="contact">Kontakt</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
