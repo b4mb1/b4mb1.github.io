@@ -508,7 +508,7 @@ input:-webkit-autofill:focus {
 
 .home-area {
     width: 100%;
-    background: url('images/header-bg.jpg') no-repeat scroll center bottom / cover;
+    background: url('landing_page/images/header-bg.jpg') no-repeat scroll center bottom / cover;
     padding-top: 26vh;
     color: #ffffff;
     margin-bottom: 100px;
@@ -516,7 +516,7 @@ input:-webkit-autofill:focus {
 
 .home-area-funding {
     width: 100%;
-    background: url('images/header-bg.jpg') no-repeat scroll center bottom / cover;
+    background: url('landing_page/images/header-bg.jpg') no-repeat scroll center bottom / cover;
     padding-top: 70px;
     color: #ffffff;
 }
@@ -530,7 +530,7 @@ input:-webkit-autofill:focus {
 /*-- 8. Progress-Area --*/
 
 .progress-area {
-    background-image: url('images/progress-bg.jpg');
+    background-image: url('landing_page/images/progress-bg.jpg');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: auto 100%;
@@ -546,7 +546,7 @@ input:-webkit-autofill:focus {
 /*-- 9. Video-Area --*/
 
 .video-area {
-    background-image: url('images/video-bg.jpg');
+    background-image: url('landing_page/images/video-bg.jpg');
     background-repeat: no-repeat;
     background-position: left center;
     background-size: auto 100%;
@@ -578,7 +578,7 @@ input:-webkit-autofill:focus {
 .feature-area {
     color: #ffffff;
     background-color: #5e88fc;
-    background-image: url('images/feature-bg.png');
+    background-image: url('landing_page/images/feature-bg.png');
     background-position: bottom -120px center;
     background-repeat: no-repeat;
     background-size: auto 94%;
@@ -747,7 +747,7 @@ input:-webkit-autofill:focus {
 }
 
 .gallery-slide .owl-stage-outer {
-    background: url('images/mobile-screen.png') no-repeat center right / auto 100%;
+    background: url('landing_page/images/mobile-screen.png') no-repeat center right / auto 100%;
 
 }
 
@@ -806,7 +806,7 @@ input:-webkit-autofill:focus {
 /*-- 14. Download-Area --*/
 
 .download-area {
-    background-image: url('images/download-bg.png');
+    background-image: url('landing_page/images/download-bg.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -995,7 +995,7 @@ input:-webkit-autofill:focus {
 /*-- 17. Subscribe-Form --*/
 
 .subscribe-area {
-    background: url('images/subscribe-bg.jpg') no-repeat scroll center center / cover;
+    background: url('landing_page/images/subscribe-bg.jpg') no-repeat scroll center center / cover;
 }
 
 .subscribe-form {

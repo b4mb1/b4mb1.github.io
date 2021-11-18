@@ -10,20 +10,20 @@
     <!-- Title -->
     <title>Serval App</title>
     <!-- Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+    <link rel="apple-touch-icon" href="landing_page/images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/ico" href="landing_page/images/favicon.ico" />
     <!-- Plugin-CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/linearicons.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="landing_page/css/bootstrap.min.css">
+    <link rel="stylesheet" href="landing_page/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="landing_page/css/linearicons.css">
+    <link rel="stylesheet" href="landing_page/css/magnific-popup.css">
+    <link rel="stylesheet" href="landing_page/css/animate.css">
     <!-- Main-Stylesheets -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <link rel="stylesheet" href="landing_page/css/normalize.css">
+    <link rel="stylesheet" href="landing_page/style.css">
+    <link rel="stylesheet" href="landing_page/css/responsive.css">
+    <link rel="stylesheet" href="landing_page/css/font-awesome.min.css">
+    <script src="landing_page/js/vendor/modernizr-2.8.3.min.js"></script>
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -37,23 +37,40 @@
     <!-- MainMenu-Area -->
     <nav class="mainmenu-area" data-spy="affix" data-offset-top="200">
         <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary_menu">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="funding.html"><img src="images/flaga.svg" alt="Logo"></a>
-            </div>
-            <div class="collapse navbar-collapse" id="primary_menu">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary_menu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="funding.html"><img src="landing_page/images/flaga.svg" alt="Logo"></a>
+                </div>
+                <div class="header__toogleGroup">
+                  <!--
+                  <button class="bttn-white sq"> Login </button>
+                  <button class="bttn-white sq"> Sign Up </button>
+                      -->
+                    <a href="https://serval-app.com/login">
+                      <button type="button" class="bttn-white" style="margin-left: 10px">
+                        Utwórz konto
+                      </button>
+                    </a>
+                    <a href="https://serval-app.com/login">
+                      <button type="button" class="bttn-white" style="margin-left: 10px">
+                        Zaloguj
+                      </button>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="primary_menu">
                 <ul class="nav navbar-nav mainmenu">
                     <li class="active"><a id="home" href="#home_page">Strona główna</a></li>
                     <li><a href="#about_page" id="about">O Serval</a></li>
                     <li><a href="#progress_page" id="news">Aktualności</a></li>
                     <li><a href="#features_page" id="feature">Aplikacja</a></li>
-                    <li><a href="#questions_page" id="faq">FAQ</a></li>
                     <li><a href="#contact_page" id="contact">Kontakt</a></li>
                 </ul>
+            </div>
             </div>
         </div>
     </nav>
@@ -64,7 +81,7 @@
             <div class="row">
                 <div class="col-xs-12 hidden-sm col-md-5">
                     <figure class="mobile-image wow fadeInUp" data-wow-delay="0.2s">
-                        <img src="images/header-mobile.png" alt="">
+                        <img src="landing_page/images/header-mobile.png" alt="">
                     </figure>
                 </div>
                 <div class="col-xs-12 col-md-7">
@@ -73,11 +90,12 @@
                     <div class="space-20"></div>
                     <div class="desc wow fadeInUp" data-wow-delay="0.6s">
                         <p id="under_header">Prowadzisz Restaurację, Bar, Salon Beauty - to rozwiązanie właśnie dla Ciebie! Zintegruj się już dziś z aplikacją SERVAL całkowicie za darmo!
-                            <br><br><br><h4>Dostępna na system iOS i Android:</h4></p>
+                            <br><br><br><h4>Dostępna w formie aplikacji internetowej oraz na system iOS i Android:</h4></p>
                     </div>
                     <div class="space-20"></div>
-                    <a href="https://apps.apple.com/us/app/serval/id1579898272" class="bttn-white sq"><img src="images/apple-icon.png" alt="apple icon">App Store</a>
-                    <a href="https://play.google.com/store/apps/details?id=pl.tipme.app" class="bttn-white sq"><img src="images/play-store-icon.png" alt="Play Store Icon">Play Store</a>
+                    <a href="https://apps.apple.com/us/app/serval/id1579898272" class="bttn-white sq"><img src="landing_page/images/tag.png" alt="apple icon">Web</a>
+                    <a href="https://apps.apple.com/us/app/serval/id1579898272" class="bttn-white sq"><img src="landing_page/images/apple-icon.png" alt="apple icon">App Store</a>
+                    <a href="https://play.google.com/store/apps/details?id=pl.tipme.app" class="bttn-white sq"><img src="landing_page/images/play-store-icon.png" alt="Play Store Icon">Play Store</a>
                 </div>
             </div>
         </div>
@@ -89,7 +107,7 @@
             <div class="row">
                 <div class="col-xs-12 col-md-10 col-md-offset-1">
                     <div class="page-title text-center">
-                        <img src="images/about-logo.png" alt="About Logo" width="100" height="100">
+                        <img src="landing_page/images/about-logo.png" alt="About Logo" width="100" height="100">
                         <div class="space-20"></div>
                         <h5 class="title" id="about_page_title">O Serval</h5>
                         <div class="space-30"></div>
@@ -121,7 +139,7 @@
                 </div>
                 <div class="col-xs-12 col-md-6">
                     <figure class="mobile-image">
-                        <img src="images/progress-phone.png" alt="">
+                        <img src="landing_page/images/progress-phone.png" alt="">
                     </figure>
                 </div>
             </div>
@@ -133,9 +151,9 @@
             <div class="row">
                 <div class="col-xs-12 col-md-6">
                     <div class="video-photo">
-                        <img src="images/video-image.jpg" alt="">
+                        <img src="landing_page/images/video-image.jpg" alt="">
                         <a href="https://www.youtube.com/watch?v=GwTpNiiMPtc" class="popup video-button">
-                            <img src="images/play-button.png" alt="">
+                            <img src="landing_page/images/play-button.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -174,7 +192,7 @@
                         <div class="box-icon">
                             <i class="lnr lnr-rocket"></i>
                         </div>
-                        <h4 id="feat1_title">NAPIWKI</h4> 
+                        <h4 id="feat1_title">NAPIWKI</h4>
                         <p id="feat1_subtitle">- kłopot z rozdzielaniem napiwków? W naszej aplikacji napiwki trafiają automatycznie na konto kelnera i nie wymagają dodatkowej pracy <br>- integracja nic nie kosztuje <br>- razem z napiwkiem użytkownik może zostawić komentarz, do którego dostęp będziesz mieć w dashboardzie</p>
                     </div>
                     <div class="space-60"></div>
@@ -184,7 +202,7 @@
                         </div>
                          <h4 id="feat4_title">KOMENTARZE</h4>
                         <p id="feat4_subtitle">- poza możliwością zostawienia napiwku gość może także zostawić opinię lub komentarz obsłudze. <br>- dostęp do wszystkich zostawionych opinii ma osoba zarządzająca kontem lokalu</p>
-        
+
                     </div>
                     <div class="space-60"></div>
                     <div class="service-box wow fadeInUp" data-wow-delay="0.6s">
@@ -198,7 +216,7 @@
                 </div>
                 <div class="hidden-xs hidden-sm col-md-4">
                     <figure class="mobile-image">
-                        <img src="images/feature-image.png" alt="Feature Photo">
+                        <img src="landing_page/images/feature-image.png" alt="Feature Photo">
                     </figure>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -244,7 +262,7 @@
                 </div>
                 <div class="row">
                 <div class="col-xs-12 col-sm-3">
-                </div>   
+                </div>
                     <div class="col-xs-12 col-sm-3">
                         <div class="footer-box">
                             <div class="box-icon">
@@ -259,13 +277,13 @@
                             <div class="box-icon">
                                 <span class="lnr lnr-envelope"></span>
                             </div>
-                            <p>kontakt@tip-me.pl
+                            <p>kontakt@serval-app.com
                             </p>
                         </div>
                         <div class="space-30 hidden visible-xs"></div>
-                    </div> 
+                    </div>
                 <div class="col-xs-12 col-sm-3">
-                </div> 
+                </div>
                 </div>
             </div>
         </div>
@@ -274,8 +292,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-2">
-                        <a href="images/terms.pdf">Terms and conditions</a>
-                        <a href="images/policy.pdf">Privacy policy</a>
+                        <a href="landing_page/images/terms.pdf">Terms and conditions</a>
+                        <a href="landing_page/images/policy.pdf">Privacy policy</a>
                     </div>
                     <div class="col-xs-12 col-md-4">
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -288,7 +306,7 @@
                     </div>
                     <div class="col-xs-12 col-md-2">
                         <a href="funding.html">
-                            <img src="images/flaga-2.svg" alt="European Funds Smart Growth">
+                            <img src="landing_page/images/flaga-2.svg" alt="European Funds Smart Growth">
                         </a>
                     </div>
                 </div>
@@ -298,20 +316,19 @@
     </footer>
     <!-- Footer-Area-End -->
     <!--Vendor-JS-->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/vendor/jquery-ui.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/vendor/menu/menu.min.js"></script>
+    <script src="landing_page/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="landing_page/js/vendor/jquery-ui.js"></script>
+    <script src="landing_page/js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript" src="landing_page/js/vendor/menu/menu.min.js"></script>
     <!--Plugin-JS-->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/contact-form.js"></script>
-    <script src="js/ajaxchimp.js"></script>
-    <script src="js/scrollUp.min.js"></script>
-    <script src="js/magnific-popup.min.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="landing_page/js/owl.carousel.min.js"></script>
+    <script src="landing_page/js/owl.carousel.min.js"></script>
+    <script src="landing_page/js/contact-form.js"></script>
+    <script src="landing_page/js/ajaxchimp.js"></script>
+    <script src="landing_page/js/scrollUp.min.js"></script>
+    <script src="landing_page/js/magnific-popup.min.js"></script>
+    <script src="landing_page/js/wow.min.js"></script>
     <!--Main-active-JS-->
-    <script src="js/main.js"></script>
+    <script src="landing_page/js/main.js"></script>
 </body>
-
 </html>
